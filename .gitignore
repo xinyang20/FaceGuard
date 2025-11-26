@@ -1,0 +1,104 @@
+# ====================
+# AI 模型文件
+# ====================
+*.onnx
+*.pt
+*.pth
+*.h5
+*.pb
+*.tflite
+backend/models/
+
+# ====================
+# 数据库文件
+# ====================
+*.db
+*.sqlite
+*.sqlite3
+backend/access_control.db
+
+# ====================
+# 日志文件
+# ====================
+*.log
+logs/
+backend/logs/
+backend/static/logs/
+
+# ====================
+# 用户隐私数据
+# ====================
+backend/static/avatars/
+backend/static/snapshots/
+backend/static/uploads/
+avatars/
+snapshots/
+
+# ====================
+# Python 相关
+# ====================
+# 虚拟环境
+.venv/
+venv/
+ENV/
+env/
+*.pyc
+__pycache__/
+
+# 依赖管理
+*.egg-info/
+dist/
+build/
+*.egg
+
+# uv 包管理器
+uv.lock
+
+# ====================
+# Node.js 相关
+# ====================
+node_modules/
+frontend/node_modules/
+frontend/dist/
+*.tsbuildinfo
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# ====================
+# IDE 配置文件
+# ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ====================
+# 环境变量和配置
+# ====================
+.env
+.env.local
+.env.*.local
+config.local.*
+
+# ====================
+# 临时文件
+# ====================
+*.tmp
+*.temp
+*.bak
+*.cache
+
+# ====================
+# 系统文件
+# ====================
+Thumbs.db
+desktop.ini
+
+# ====================
+# Claude/Gemini 工作目录
+# ====================
+.claude/
+.gemini/
